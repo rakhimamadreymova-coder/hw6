@@ -7,7 +7,7 @@ import (
 
 func ExampleMonthlyPayment() {
 	p := product.Product{
-		ID:     7291,
+		ID:     7293,
 		Name:   "Xiaomi Redmi Note 14",
 		Price:  2499000,
 		Months: 12,
@@ -15,3 +15,5 @@ func ExampleMonthlyPayment() {
 	fmt.Println(product.MonthlyPayment(p))
 	// Output: 208250
 }
+
+//test
